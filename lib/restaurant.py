@@ -24,7 +24,7 @@ class Restaurant:
 if __name__ == "__main__":
     sample_restaurant = Restaurant("Java")
 
-    sample_review = Review("Guyo Halake", "Java", 4)
+    sample_review = Review("kyle", "Dave","KFC", 8)
 
     sample_restaurant.add_review(sample_review)
 
