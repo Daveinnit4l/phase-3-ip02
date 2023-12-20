@@ -14,7 +14,7 @@ class Review:
         return self.restaurant
 
 if __name__ == "__main__":
-    sample_review = Review("Guyo Halake", "Java", 4.5)
+    sample_review = Review("kyle", "Dave", "KFC", 8)
 
     print(f"Rating: {sample_review.get_rating()}")
     print(f"Customer: {sample_review.get_customer()}")
