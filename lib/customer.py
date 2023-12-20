@@ -37,9 +37,9 @@ class Customer:
         return [customer for customer in cls.all_customers if customer.given_name == given_name]
 
 if __name__ == "__main__":
-    sample_customer = Customer("Guyo", "Halake")
+    sample_customer = Customer("kyle", "Dave")
 
-    sample_review = Review(sample_customer.full_name(), "Java", 4)
+    sample_review = Review(sample_customer.full_name(), "KFC", 8)
 
     sample_customer.reviews.append(sample_review)
 
